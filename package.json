@@ -3,6 +3,9 @@
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
-    "style" : "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "style": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@preline/dropdown": "^2.0.2"
   }
 }
